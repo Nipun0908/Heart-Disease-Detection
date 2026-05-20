@@ -8,7 +8,13 @@ $$P(Y=1|X) = \frac{1}{1 + e^{-z}}$$
 Where $z = \beta_0 + \beta_1x_1 + \beta_2x_2 + \dots + \beta_nx_n$. This yields a probabilistic output boundary between $0$ and $1$. Predictions are categorized across a classification threshold boundary (defaulting to $0.5$):
 * **Target = 0**: Lower indication of narrow blood vessels (lower risk).
 * **Target = 1**: Narrowing of blood vessels greater than 50% threshold (elevated clinical risk).
-
+## Requirements
+Install following libreries
+* pandas 
+* numpy 
+* scikit-learn 
+* matplotlib 
+* seaborn
 ## Setup & Running Instructions
 1.	Open this repository locally
 
